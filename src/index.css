@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tic-tac{
+  width: 150px;
+  height: 150px;
+  border: 2px solid blueviolet;
+  margin: 50px auto;
+}
+h1{
+  text-align: center;
+}
+.ttt-grid{
+  width: 50px;
+  height: 50px;
+  border: 1px solid blueviolet;
+  float: left;
+  box-sizing: border-box;
+}
+.row-header{
+  margin:0px auto;
+  padding: 0px auto;
+}
+.row-content{
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.plus{
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 20px;
+
+}
+#more{
+  margin-left: 10px;
+}
+.datetimepicker-header {
+  position: relative;
+  background: #f00;
+}
+
+.datetimepicker-header-close {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+}
